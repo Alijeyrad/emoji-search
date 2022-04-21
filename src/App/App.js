@@ -1,12 +1,14 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import './App.css';
 import EmojiSection from '../EmojiSection/EmojiSection';
+import Search from '../Search/Search'
 
 function App() {
 
   return (
     <div className="App">
-       <EmojiSection /> 
+      <Search />
+      <EmojiSection />
     </div>
   );
 }

@@ -22,7 +22,7 @@ const EmojiSection = () => {
 
   return (
     <div className="content">
-      {loading && <div>loading</div>}
+      {loading && <div>Loading...</div>}
       {emojiList.map((emoji) => (
         <EmojiCard symbol={emoji.symbol} title={emoji.title} />
       ))}
