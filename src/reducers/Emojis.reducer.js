@@ -25,7 +25,9 @@ const EmojiReducer = (state, action) => {
         };
       } else {
         for (let item of state.emojis) {
-          if (item.keywords.search(query.toLowerCase()) !== -1) {
+          let isInKeywords = item.keywords.search(query.toLowerCase()) !== -1;
+          let isInTitle = item.title.toLowerCase().search(query.toLowerCase()) !== -1;
+          if (isInKeywords || isInTitle) {
             results.push(item);
           }
         }

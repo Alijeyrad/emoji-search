@@ -1,5 +1,20 @@
 .header {
   display: flex;
   flex-direction: row;
-  font-size: 22px;
+  font-size: 32px;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(52, 31, 128);
+  background-color: rgb(232, 250, 255);
+  margin-bottom: 20px;
+  padding: 10px
+}
+
+.findEmojis {
+  font-size: 30px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
 }
