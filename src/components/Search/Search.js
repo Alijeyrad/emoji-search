@@ -6,7 +6,7 @@ import EmojisContext from '../../contexts/EmojiContext'
 
 const Search = () => {
 
-  const { dispatchEmojis, loading } = useContext(EmojisContext)
+  const { dispatchEmojis } = useContext(EmojisContext)
 
   const inputSearch = useRef(null)
   

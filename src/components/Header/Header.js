@@ -8,7 +8,7 @@ const Header = () => {
       <div className="header">
         <div className="findEmojis">Find Emojis 👀</div>
         <div className="info">
-          <a target="_blank" href="https://github.com/Alijeyrad/emoji-search">
+          <a target="_blank" href="https://github.com/Alijeyrad/emoji-search" rel="noreferrer">
             <GoMarkGithub />
           </a>
         </div>

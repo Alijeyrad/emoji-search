@@ -36,6 +36,8 @@ const EmojiReducer = (state, action) => {
           searchedEmojis: results,
         };
       }
+    default:
+      break;
   }
 };
 

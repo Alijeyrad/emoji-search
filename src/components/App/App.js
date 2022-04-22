@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import EmojiSection from "../EmojiSection/EmojiSection";
 import Layout from "../Layout/Layout";
 
 function App() {
