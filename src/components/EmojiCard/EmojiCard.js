@@ -19,11 +19,13 @@ const EmojiCard = (props) => {
     <div className="card" title={title}>
       {copied ? (
         <div className="copied">
-            <MdDone />
           <small>copied</small>
+          <MdDone />
         </div>
       ) : (
+        <div className="svg">
           <MdOutlineFileCopy onClick={copyToClipboard} />
+        </div>
       )}
 
       <div className="symbol">{symbol}</div>
